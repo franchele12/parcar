@@ -29,6 +29,7 @@ public class Car
         car.accelerate();
         car.slowDown();
         car.moveDown();
+        car.accelerate();
         g.printGarage();
 //        turnRight();
 //        turnHeadlightsOn();
