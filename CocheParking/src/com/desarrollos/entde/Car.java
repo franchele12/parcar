@@ -30,9 +30,8 @@ public class Car
     	Garage g = new Garage();
     	Car car = new Car(g);
         car.accelerate();
-        slowDown();
-        moveDown();
-        accelerate();
+        car.slowDown();
+        car.moveDown();
         car.printGarage();
 //        turnRight();
 //        turnHeadlightsOn();
@@ -59,7 +58,7 @@ public class Car
      * @throws InterruptedException 
      */
     public void slowDown() throws InterruptedException{
-    	string c = new string("     *");
+    	String c = new String("     *");
     	for(int i=0; i<5; i++)
         {
         	System.out.print(c);
@@ -74,7 +73,7 @@ public class Car
      * @throws InterruptedException 
      */    
     public void moveDown() throws InterruptedException{
-    	string c = new string("\t\t\t\t  *"));
+    	String c = new String("\t\t\t\t  *"));
     	for(int i=0, i<5, i++)
         {
     		if(i!=4)
@@ -84,5 +83,7 @@ public class Car
         	Thread.sleep(1000);
         }
     }
+    
+    
     
 }
