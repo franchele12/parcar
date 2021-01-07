@@ -8,7 +8,7 @@ import java.awt.Color;
  * @Java MOOC team, UC3M
  * @2.0
  */
-public class Car fffffffffff
+public class Car
 {
     // Attributes of the class Car
     static int numberWheels = 4;                // Number of wheels                           
